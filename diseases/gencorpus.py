@@ -1,6 +1,7 @@
 import os
 from os.path import isfile
 
+# The script will generate the full-corpus txt used to make the indexes.
 
 output = open("diseases-full-corpus.txt", "w")
 

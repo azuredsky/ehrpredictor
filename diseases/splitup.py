@@ -1,5 +1,7 @@
 import os
 
+# This script will read in the full data and separate each file into a series of smaller files.
+
 def read_file(ofile, folder):
     with open(ofile, mode='r', encoding="utf8") as f:
         lines = f.read().split('\n')

@@ -64,5 +64,10 @@ if __name__ == '__main__':
     print(testing[12].id)
     
 
+    """
+    Thoughts:
+    Here take some input text from the user. Create a new data file corresponding to a line.toml and its own config.toml.
+    Classify it to retrieve some result.
+    """
     matrix.print_stats()
     print("Elapsed: {} seconds".format(round(time.time() - start_time, 4)))
