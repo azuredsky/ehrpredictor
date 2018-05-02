@@ -1,0 +1,2 @@
+Genetics
+An important step toward determining ALS risk factors was made in 1993 when scientists supported by the National Institute of Neurological Disorders and Stroke (NINDS) discovered that mutations in the SOD1 gene were associated with some cases of familial ALS. Although it is still not clear how mutations in the SOD1 gene lead to motor neuron degeneration, there is increasing evidence that the gene playing a role in producing mutant SOD1 protein can become toxic.

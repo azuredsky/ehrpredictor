@@ -1,0 +1,68 @@
+Amyotrophic lateral sclerosis (ALS) is a group of rare neurological diseases that mainly involve the nerve cells (neurons) responsible for controlling voluntary muscle movement. Voluntary muscles produce movements like chewing, walking, and talking. The disease is progressive, meaning the symptoms get worse over time. Currently, there is no cure for ALS and no effective treatment to halt, or reverse, the progression of the disease.
+
+ALS belongs to a wider group of disorders known as motor neuron diseases, which are caused by gradual deterioration (degeneration) and death of motor neurons. Motor neurons are nerve cells that extend from the brain to the spinal cord and to muscles throughout the body. These motor neurons initiate and provide vital communication links between the brain and the voluntary muscles.
+
+Messages from motor neurons in the brain (called upper motor neurons) are transmitted to motor neurons in the spinal cord and to motor nuclei of brain (called lower motor neurons) and from the spinal cord and motor nuclei of brain to a particular muscle or muscles.
+
+In ALS, both the upper motor neurons and the lower motor neurons degenerate or die, and stop sending messages to the muscles. Unable to function, the muscles gradually weaken, start to twitch (called fasciculations), and waste away (atrophy). Eventually, the brain loses its ability to initiate and control voluntary movements.
+
+Early symptoms of ALS usually include muscle weakness or stiffness. Gradually all muscles under voluntary control are affected, and individuals lose their strength and the ability to speak, eat, move, and even breathe.
+
+Most people with ALS die from respiratory failure, usually within 3 to 5 years from when the symptoms first appear. However, about 10 percent of people with ALS survive for 10 or more years.
+
+In 2016 the Centers for Disease Control and Prevention estimated that between 14,000 - 15,000 Americans have ALS.  ALS is a common neuromuscular disease worldwide. It affects people of all races and ethnic backgrounds.
+
+There are several potential risk factors for ALS including:
+Age. Although the disease can strike at any age, symptoms most commonly develop between the ages of 55 and 75.
+Gender. Men are slightly more likely than women to develop ALS. However, as we age the difference between men and women disappears.
+Race and ethnicity. Most likely to develop the disease are Caucasians and non-Hispanics.
+Some studies suggest that military veterans are about 1.5 to 2 times more likely to develop ALS. Although the reason for this is unclear, possible risk factors for veterans include exposure to lead, pesticides, and other environmental toxins. ALS is recognized as a service-connected disease by the U.S. Department of Veterans Affairs.
+
+Sporadic ALS
+The majority of ALS cases (90 percent or more) are considered sporadic. This means the disease seems to occur at random with no clearly associated risk factors and no family history of the disease. Although family members of people with sporadic ALS are at an increased risk for the disease, the overall risk is very low and most will not develop ALS.
+
+Familial (Genetic) ALS
+About 5 to 10 percent of all ALS cases are familial, which means that an individual inherits the disease from his or her parents. The familial form of ALS usually only requires one parent to carry the gene responsible for the disease. Mutations in more than a dozen genes have been found to cause familial ALS. About 25 to 40 percent of all familial cases (and a small percentage of sporadic cases) are caused by a defect in a gene known as “chromosome 9 open reading frame 72,” or C9ORF72. Interestingly, the same mutation can be associated with atrophy of frontal-temporal lobes of the brain causing frontal-temporal lobe dementia. Some individuals carrying this mutation may show signs of both motor neuron and dementia symptoms (ALS-FTD). Another 12 to 20 percent of familial cases result from mutations in the gene that provides instructions for the production of the enzyme copper-zinc superoxide dismutase 1 (SOD1).
+
+The onset of ALS can be so subtle that the symptoms are overlooked but gradually these symptoms develop into more obvious weakness or atrophy that may cause a physician to suspect ALS. Some of the early symptoms include:
+
+fasciculations (muscle twitches) in the arm, leg, shoulder, or tongue
+muscle cramps
+tight and stiff muscles (spasticity)
+muscle weakness affecting an arm, a leg, neck or diaphragm.
+slurred and nasal speech
+difficulty chewing or swallowing.
+For many individuals the first sign of ALS may appear in the hand or arm as they experience difficulty with simple tasks such as buttoning a shirt, writing, or turning a key in a lock.  In other cases, symptoms initially affect one of the legs, and people experience awkwardness when walking or running or they notice that they are tripping or stumbling more often.
+
+When symptoms begin in the arms or legs, it is referred to as "limb onset" ALS.  Other individuals first notice speech or swallowing problems, termed "bulbar onset" ALS.
+Regardless of where the symptoms first appear, muscle weakness and atrophy spread to other parts of the body as the disease progresses. Individuals may develop problems with moving, swallowing (dysphagia), speaking or forming words (dysarthria), and breathing (dyspnea).  
+
+Although the sequence of emerging symptoms and the rate of disease progression vary from person to person, eventually individuals will not be able to stand or walk, get in or out of bed on their own, or use their hands and arms.
+Individuals with ALS usually have difficulty swallowing and chewing food, which makes it hard to eat normally and increases the risk of choking. They also burn calories at a faster rate than most people without ALS. Due to these factors, people with ALS tend to lose weight rapidly and can become malnourished.
+
+Because people with ALS usually retain their ability to perform higher mental processes such as reasoning, remembering, understanding, and problem solving, they are aware of their progressive loss of function and may become anxious and depressed.
+A small percentage of individuals may experience problems with language or decision-making, and there is growing evidence that some may even develop a form of dementia over time.
+
+Individuals with ALS will have difficulty breathing as the muscles of the respiratory system weaken. They eventually lose the ability to breathe on their own and must depend on a ventilator. Affected individuals also face an increased risk of pneumonia during later stages of the disease. Besides muscle cramps that may cause discomfort, some individuals with ALS may develop painful neuropathy (nerve disease or damage).
+
+Electromyography (EMG), a special recording technique that detects electrical activity of muscle fibers, can help diagnose ALS. Another common test is a nerve conduction study (NCS), which measures electrical activity of the nerves and muscles by assessing the nerve’s ability to send a signal along the nerve or to the muscle. Specific abnormalities in the NCS and EMG may suggest, for example, that the individual has a form of peripheral neuropathy (damage to peripheral nerves outside of the brain and spinal cord) or myopathy (muscle disease) rather than ALS.
+
+A physician may also order a magnetic resonance imaging (MRI) test, a noninvasive procedure that uses a magnetic field and radio waves to produce detailed images of the brain and spinal cord. Standard MRI scans are generally normal in people with ALS. However, they can reveal other problems that may be causing the symptoms, such as a spinal cord tumor, a herniated disk in the neck that compresses the spinal cord, syringomyelia (a cyst in the spinal cord), or cervical spondylosis (abnormal wear affecting the spine in the neck).
+
+Genetics
+An important step toward determining ALS risk factors was made in 1993 when scientists supported by the National Institute of Neurological Disorders and Stroke (NINDS) discovered that mutations in the SOD1 gene were associated with some cases of familial ALS. Although it is still not clear how mutations in the SOD1 gene lead to motor neuron degeneration, there is increasing evidence that the gene playing a role in producing mutant SOD1 protein can become toxic.
+
+Since then, more than a dozen additional genetic mutations have been identified, many through NINDS-supported research, and each of these gene discoveries is providing new insights into possible mechanisms of ALS.
+
+The discovery of certain genetic mutations involved in ALS suggests that changes in the processing of RNA molecules may lead to ALS-related motor neuron degeneration. RNA molecules are one of the major macromolecules in the cell involved in directing the synthesis of specific proteins as well as gene regulation and activity.
+
+
+In 2011 another important discovery was made when scientists found that a defect in the C9ORF72 gene is not only present in a significant subset of individuals with ALS but also in some people with a type of frontotemporal dementia (FTD). This observation provides evidence for genetic ties between these two neurodegenerative disorders. Most researchers now believe ALS and some forms of FTD are related disorders.
+
+For example, researchers have suggested that exposure to toxins during warfare, or strenuous physical activity, are possible reasons for why some veterans and athletes may be at increased risk of developing ALS.
+
+Although there has been no consistent association between any environmental factor and the risk of developing ALS, future research may show that some factors are involved in the development or progression of the disease.
+
+ALS, or amyotrophic lateral sclerosis, is a progressive neurodegenerative disease that affects nerve cells in the brain and the spinal cord. A-myo-trophic comes from the Greek language. "A" means no. "Myo" refers to muscle, and "Trophic" means nourishment – "No muscle nourishment." When a muscle has no nourishment, it "atrophies" or wastes away. "Lateral" identifies the areas in a person's spinal cord where portions of the nerve cells that signal and control the muscles are located. As this area degenerates, it leads to scarring or hardening ("sclerosis") in the region.
+
+Motor neurons reach from the brain to the spinal cord and from the spinal cord to the muscles throughout the body. The progressive degeneration of the motor neurons in ALS eventually leads to their demise. When the motor neurons die, the ability of the brain to initiate and control muscle movement is lost. With voluntary muscle action progressively affected, people may lose the ability to speak, eat, move and breathe. The motor nerves that are affected when you have ALS are the motor neurons that provide voluntary movements and muscle control. Examples of voluntary movements are making the effort to reach for a smart phone or step off a curb. These actions are controlled by the muscles in the arms and legs.
