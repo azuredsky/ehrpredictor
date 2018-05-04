@@ -2,72 +2,138 @@ import math
 import metapy
 import sys
 import time
+from tkinter import Tk, Label, Text, Button, LEFT, RIGHT, END
+
+class SimpleGUI:
+    def __init__(self, master, classifier, fwd_idx):
+        self.master = master
+        master.title("EHR Diagnosis Tool")
+
+        self.label = Label(master, text="Use this tool to help predict your medical conditions.")
+
+        self.label.pack()
+
+        self.entry = Text(master)
+        self.entry.pack()
+
+        self.submit_button = Button(master, text="Diagnose!", command=self.parseInput)
+        self.submit_button.pack(side=LEFT)
+
+        self.response = Label(master, text="")
+        self.response.pack(side=RIGHT)
+
+    def parseInput(self):
+        user_input = self.entry.get("1.0", END)
+        # Ensure the user has entered something.
+        if len(user_input) >= 1:
+            pred = diagnose(classifier, fwd_idx, user_input)
+            response = get_response(pred)
+            self.response["text"] = response
 
 def make_classifier(training, inv_idx, fwd_idx):
     """
-    Use this function to train and return a Classifier object of your
-    choice from the given training set. (You can ignore the inv_idx and
-    fwd_idx parameters in almost all cases, but they are there if you need
-    them.)
-
-    **Make sure you update your config.toml to change your feature
-    representation!** The data provided here will be generated according to
-    your specified analyzer pipeline in your configuration file (which, by
-    default, is going to be unigram words).
-
-    Also, if you change your feature set and already have an existing
-    index, **please make sure to delete it before running this script** to
-    ensure your new features are properly indexed.
+    This function wil define our classifier. I am using a OneVsAll as it 
+    had the highest accuracy on my training set.
     """
-    # Baseline
-    # return metapy.classify.NaiveBayes(training)
-    # Lower, even with variations of gamma and max_iter
-    # return metapy.classify.LogisticRegression(training = training)
-    # Lower
-    # return metapy.classify.KNN(training = training, inv_idx = inv_idx, k = 4, ranker = metapy.index.OkapiBM25(), weighted = False)
-    # Higher k does not improve
-    # return metapy.classify.KNN(training = training, inv_idx = inv_idx, k = 8, ranker = metapy.index.OkapiBM25(), weighted = True)
     
     return metapy.classify.OneVsAll(training, metapy.classify.SGD, loss_id='hinge')
 
+def make_indxs(cfg):
+    """
+    Inverted idx and forward idx are returned in that order.
+    """
+    return metapy.index.make_inverted_index(cfg), metapy.index.make_forward_index(cfg)
+
+def make_datasetview(fwd_idx):
+    """
+    Insert the fwd_idx into a format that can be used by the classifier.
+    """
+    dset = metapy.classify.MulticlassDataset(fwd_idx)
+    view = metapy.classify.MulticlassDatasetView(dset)
+    return dset, view
+
+def test_classifier(dset, view, fwd_idx, inv_idx):
+    """
+    This method was used to ensure a certain level of accuracy from the classifier.
+    """
+    training = view[0:int(0.75*len(view))]
+    testing = view[int(0.75*len(view)):len(view)+1]
+
+    print('Running cross-validation...')
+    matrix = metapy.classify.cross_validate(lambda fold:
+            make_classifier(fold, inv_idx, fwd_idx), dset, 5)
+    matrix.print_stats()
+
+def diagnose(classifier, fwd_idx, user_input):
+    doc = metapy.index.Document()
+    doc.content(user_input)
+    return classifier.classify(fwd_idx.tokenize(doc))
+
+def get_response(prediction):
+    if prediction == "acidreflux":
+        return "You may have acid reflux."
+    elif prediction == "als":
+        return "You may have ALS."
+    elif prediction == "alzheimer":
+        return "You may have Alzheimer's."
+    elif prediction == "breastcancer":
+        return "You may have breast cancer."
+    elif prediction == "diabetes":
+        return "You may have diabetes."
+    elif prediction == "hemophilia":
+        return "You may have hemophilia."
+    elif prediction == "multiplesclerosis":
+        return "You may have multiple sclerosis."
+    elif prediction == "parkinsons":
+        return "You may have Parkinson's."
+    else:
+        return "I'm sorry, something went wrong."
+
+"""
+I am using 8 diseases for diagnosis here:
+Heart disease
+Alzheimer's
+Diabetes
+Hemophilia
+Breast cancer
+Acid reflux
+Parkinson's
+Multiple Sclerosis
+ALS
+
+In order to construct the data, I pulled symptomatic profiles from a variety of online resources. 
+From there, I used some separate python scripts (found in ./diseases under splitup.py and gencorpus.py) to 
+arrange the data in a desired file format to be read by the file.toml. The original text samples can be 
+found under the name of their disease in ./diseases.
+"""
 if __name__ == '__main__':
+    start_time = time.time()
     if len(sys.argv) != 2:
-        print("Usage: {} config.toml".format(sys.argv[0]))
+        print("Usage: {} config.toml input.toml".format(sys.argv[0]))
         sys.exit(1)
 
     metapy.log_to_stderr()
 
     cfg = sys.argv[1]
     print('Building or loading indexes...')
-    inv_idx = metapy.index.make_inverted_index(cfg)
-    fwd_idx = metapy.index.make_forward_index(cfg)
 
-    dset = metapy.classify.MulticlassDataset(fwd_idx)
-    view = metapy.classify.MulticlassDatasetView(dset)
+    # Build the data indices using the config.toml.
+    inv_idx, fwd_idx = make_indxs(cfg)
+
+    # Set up the MultiClassDatatsetView to be used for the classifier.
+    dset, view = make_datasetview(fwd_idx)
     view.shuffle()
     
-    training = view[0:int(0.75*len(view))]
-    testing = view[int(0.75*len(view)):len(view)+1]
+    # Test the proposed classifier model to see if it upholds a standard of accuracy.
+    test_classifier(dset, view, fwd_idx, inv_idx)
 
-    print('Running cross-validation...')
-    start_time = time.time()
-    matrix = metapy.classify.cross_validate(lambda fold:
-            make_classifier(fold, inv_idx, fwd_idx), dset, 5)
-    print(matrix)
+    # Construct the classifier.
+    classifier = make_classifier(view, inv_idx, fwd_idx)
 
-    classifier = make_classifier(training, inv_idx, fwd_idx)
-    # classifier.classify(testing[0].weights))
-    tmatrix = classifier.test(testing)
-    tmatrix.print_stats()
+    # Now we construct the GUI in order to take user input and run it through the classifier.
+    print("Initialize the GUI")
 
-    print(classifier.classify(testing[12].weights))
-    print(testing[12].id)
-    
-
-    """
-    Thoughts:
-    Here take some input text from the user. Create a new data file corresponding to a line.toml and its own config.toml.
-    Classify it to retrieve some result.
-    """
-    matrix.print_stats()
+    root = Tk()
+    GUI = SimpleGUI(root, classifier, fwd_idx)
+    root.mainloop()
     print("Elapsed: {} seconds".format(round(time.time() - start_time, 4)))
