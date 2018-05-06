@@ -90,7 +90,7 @@ def get_response(prediction):
         return "I'm sorry, something went wrong."
 
 """
-I am using 8 diseases for diagnosis here:
+I am using 9 diseases for diagnosis here:
 Heart disease
 Alzheimer's
 Diabetes
