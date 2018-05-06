@@ -13,9 +13,13 @@ Acid Reflux
 Under the diseases folder in the root directory, you can find all of the original texts that were used to create the classifications for each topic (aka disease). They are configured using a file.toml file, such that each file underneath a given disease is an individual classification document.
 
 To use:
+
 `git clone` 
+
 `pip install requirements`
+
 from root directory:
+
 `python classify.py config.toml`
 
 This will output some of the accuracy statistics to the terminal, then launch a GUI that can be used to enter in some text about your condition. 
