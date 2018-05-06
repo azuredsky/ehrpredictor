@@ -23,7 +23,6 @@ For example, I might type in :
 > I have been bleeding very easily from different parts of my body. It's hard to control the blood. Once it starts, it continues for a while.
 
 Then there will be some diagnosis text in the bottom right corner of the screen.
----
 
 In the future, I would like to add more diseases to this tool and get a more robust classification scheme of 98% accuracy or more. Ideally, the interface should also be more comprehensive, possibly taking into account additional paramters like height and weight.
 
