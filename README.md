@@ -7,7 +7,6 @@ For CS410 Text Information Systems, I have created a basic text-classification s
 
 Diseass |
 --- |
-Diseases |
 Parkinson's |
 Diabetes |
 Breast Cancer |
