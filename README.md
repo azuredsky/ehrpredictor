@@ -5,21 +5,17 @@
 
 For CS410 Text Information Systems, I have created a basic text-classification scheme for the following diseases:
 
-|Parkinson's|
-
-|Diabetes|
-
-|Breast Cancer|
-
-|ALS|
-
-|Heart Disease|
-
-|Multiple Sclerosis|
-
-|Hemophilia|
-
-|Acid Reflux|
+Diseass |
+--- |
+Diseases |
+Parkinson's |
+Diabetes |
+Breast Cancer |
+ALS |
+Heart Disease |
+Multiple Sclerosis |
+Hemophilia |
+Acid Reflux |
 
 The application allows a user to input some text about their condition, and in turn receive a diagnostic result about which of these diseases they might possibly have. The motivation for this project was to envision a more intelligent electronic health records platform that can give patients multi-dimensional diagnostic information. There is currently a large problem in usability and information access related to the use of health records, so a tool like this could ease some of the overhead of patient care.
 
