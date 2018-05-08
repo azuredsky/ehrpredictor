@@ -34,7 +34,7 @@ To use:
 
 `git clone https://github.com/simran5/ehrpredictor.git` 
 
-`pip install requirements`
+`pip install -r requirements.txt`
 
 from root directory:
 
