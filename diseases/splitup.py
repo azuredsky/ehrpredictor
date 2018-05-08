@@ -35,7 +35,7 @@ def read_file(ofile, folder):
         
 
 if __name__ == '__main__':
-    names = ["alzheimer", "acidreflux", "breastcancer", "diabetes", "als", "parkinsons", "multiplesclerosis", "hemophilia"]
+    names = ["alzheimer", "acidreflux", "breastcancer", "diabetes", "heartdisease", "als", "parkinsons", "multiplesclerosis", "hemophilia"]
 
     for name in names:
         # name of file, then name of its directory.

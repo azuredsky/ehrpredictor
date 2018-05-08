@@ -80,6 +80,8 @@ def get_response(prediction):
         return "You may have breast cancer.\nConsult your doctor about chemotherapy."
     elif prediction == "diabetes":
         return "You may have diabetes.\nInsulin injections may help reduce the effect of diabetes."
+    elif prediction == "heartdisease":
+        return "You may have heart disease.\nConsult your doctor about medicine and making lifestyle changes."
     elif prediction == "hemophilia":
         return "You may have hemophilia.\nConsult your doctor about medication that can replace the clotting factor in your bloodstream."
     elif prediction == "multiplesclerosis":

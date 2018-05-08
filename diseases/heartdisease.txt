@@ -14,7 +14,6 @@ Pain in the neck, jaw, throat, upper abdomen or back
 You might not be diagnosed with cardiovascular disease until you have a heart attack, angina, stroke or heart failure. It's important to watch for cardiovascular symptoms and discuss concerns with your doctor. Cardiovascular disease can sometimes be found early with regular evaluations.
 
 A heart arrhythmia is an abnormal heartbeat. Your heart may beat too quickly, too slowly or irregularly. Heart arrhythmia symptoms can include:
-
 Fluttering in your chest
 Racing heartbeat (tachycardia)
 Slow heartbeat (bradycardia)
@@ -25,7 +24,6 @@ Dizziness
 Fainting (syncope) or near fainting
 
 Serious congenital heart defects — defects you're born with — usually become evident soon after birth. Heart defect symptoms in children could include:
-
 Pale gray or blue skin color (cyanosis)
 Swelling in the legs, abdomen or areas around the eyes
 In an infant, shortness of breath during feedings, leading to poor weight gain
@@ -92,3 +90,8 @@ Obesity. Excess weight typically worsens other risk factors.
 Physical inactivity. Lack of exercise also is associated with many forms of heart disease and some of its other risk factors, as well.
 Stress. Unrelieved stress may damage your arteries and worsen other risk factors for heart disease.
 Poor hygiene. Not regularly washing your hands and not establishing other habits that can help prevent viral or bacterial infections can put you at risk of heart infections, especially if you already have an underlying heart condition. Poor dental health also may contribute to heart disease.
+
+The cause of cardiomyopathy, a thickening or enlarging of the heart muscle, may depend on the type:
+Dilated cardiomyopathy. The cause of this most common type of cardiomyopathy often is unknown. It may be caused by reduced blood flow to the heart (ischemic heart disease) resulting from damage after a heart attack, infections, toxins and certain drugs. It may also be inherited from a parent. It usually enlarges (dilates) the left ventricle.
+Hypertrophic cardiomyopathy. This type, in which the heart muscle becomes abnormally thick, usually is inherited. It can also develop over time because of high blood pressure or aging.
+Restrictive cardiomyopathy. This least common type of cardiomyopathy, which causes the heart muscle to become rigid and less elastic, can occur for no known reason. Or it may be caused by diseases, such as connective tissue disorders, excessive iron buildup in your body (hemochromatosis), the buildup of abnormal proteins (amyloidosis) or by some cancer treatments.
