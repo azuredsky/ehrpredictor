@@ -71,21 +71,21 @@ def diagnose(classifier, fwd_idx, user_input):
 
 def get_response(prediction):
     if prediction == "acidreflux":
-        return "You may have acid reflux."
+        return "You may have acid reflux.\nAntacids may help relieve some pain."
     elif prediction == "als":
-        return "You may have ALS."
+        return "You may have ALS.\nSome drugs can slow the spread of ALS."
     elif prediction == "alzheimer":
-        return "You may have Alzheimer's."
+        return "You may have Alzheimer's.\nThere are currently no drugs to treat Alzheimer's, but home care may help."
     elif prediction == "breastcancer":
-        return "You may have breast cancer."
+        return "You may have breast cancer.\nConsult your doctor about chemotherapy."
     elif prediction == "diabetes":
-        return "You may have diabetes."
+        return "You may have diabetes.\nInsulin injections may help reduce the effect of diabetes."
     elif prediction == "hemophilia":
-        return "You may have hemophilia."
+        return "You may have hemophilia.\nConsult your doctor about medication that can replace the clotting factor in your bloodstream."
     elif prediction == "multiplesclerosis":
-        return "You may have multiple sclerosis."
+        return "You may have multiple sclerosis.\nIt is important to get a formal diagnosis before starting any therapies."
     elif prediction == "parkinsons":
-        return "You may have Parkinson's."
+        return "You may have Parkinson's.\nPhysical therapy can help restore some indepedenence to your life."
     else:
         return "I'm sorry, something went wrong."
 
